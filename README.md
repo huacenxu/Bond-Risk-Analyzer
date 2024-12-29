@@ -27,8 +27,6 @@ Sample Input Data
 | **CUSIP**    | **AladdinClient** | **NewRiskClient** | **StaticYield** | **ModelOAD** | **YTM** | **ExceptionDescription**       |
 |--------------|-------------------|-------------------|-----------------|--------------|---------|---------------------------------|
 | ABCD1234     | ClientA           | Risk001           | 1.5             | 0.3          | 0.5     | BondCalc Failure               |
-| EFGH5678     | ClientB           | Risk002           | 55.0            | 0.8          | 1.0     | Yield Out of Range             |
-| IJKL9012     | ClientC           | Risk003           |                 | 0.6          | 0.9     | Missing Yield                  |
 
 Output:
 Displays a DataFrame of processed exceptions. Results can be exported as a CSV.
