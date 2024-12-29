@@ -1,10 +1,10 @@
 ## Bond Risk Analyzer
 #### Overview
-The Bond Risk Analyzer automates the review of bond-related exceptions, focusing on resolving BondCalc failures and validating risk analytics. It uses decision tree logic to streamline exception handling and improve efficiency.
+The Bond Risk Analyzer automates the review of bond-related exceptions, focusing on resolving BondCalc (Risk Calculation System) failures and validating risk analytics. It uses decision tree logic to streamline exception handling and improve efficiency.
 
 #### Key Features
 Automated Exception Handling: Identifies and resolves bond-related issues, including BondCalc failures.
-Proxy CUSIP Generation: Dynamically identifies proxy CUSIPs based on bond attributes (e.g., security type, coupon type).
+Proxy CUSIP (Security Identifier) Generation: Dynamically identifies proxy CUSIPs based on bond attributes (e.g., security type, coupon type).
 Risk Validation: Checks attributes like Static Yield, Model OAD, and YTM for consistency.
 Data Processing: Outputs structured summaries of exceptions, including root cause analysis.
 
